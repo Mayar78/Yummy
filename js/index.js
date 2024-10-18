@@ -155,6 +155,8 @@ function findArea(arr) {
             </div>`
     }
     meals.innerHTML = empty;
+    searchPageInputs.innerHTML = "";
+    
     closeNav();
 }
 
@@ -353,6 +355,8 @@ function contactUsPage() {
         <button id="submitBtn" disabled class="btn btn-outline-danger px-2 mt-3">Submit</button>
     </div>
 </div> `
+searchPageInputs.innerHTML = "";
+
     submitBtn = document.getElementById("submitBtn")
 
 
