@@ -269,10 +269,10 @@ function searchPage() {
     searchPageInputs.innerHTML = `
     <div class="row py-4 ">
         <div class="col-md-6 mb-4">
-            <input onkeydown="searchByName(this.value)" class="form-control text-white bg-transparent " type="text" placeholder="Search By Name">
+            <input oninput="searchByName(this.value)" class="form-control text-white bg-transparent " type="text" placeholder="Search By Name">
         </div>
         <div class="col-md-6 mb-4">
-            <input maxlength="1" onkeydown="searchByFisrtLetter(this.value)" class="form-control bg-transparent text-white" type="text" placeholder="Search By First Letter">
+            <input maxlength="1" oninput="searchByFisrtLetter(this.value)" class="form-control bg-transparent text-white" type="text" placeholder="Search By First Letter">
         </div>
     </div>`
 
